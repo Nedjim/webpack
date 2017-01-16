@@ -7,6 +7,16 @@ $ npm init
 $ npm install react react-dom --save
 $ npm install webpack webpack-dev-server babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-2 --save-dev
 $ npm i -D babel-core
+$ npm i -D style-loader css-loader sass-loader node-sass
+```
+
+-webpack.config.js
+```javascript
+{
+            test: /\.s?css$/,
+            loaders: ['style', 'css', 'sass'],
+            include: path.join(__dirname, 'src')
+        }
 ```
 
 ## 2- Begin
