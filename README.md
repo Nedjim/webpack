@@ -10,15 +10,6 @@ $ npm i -D babel-core
 $ npm i -D style-loader css-loader sass-loader node-sass
 ```
 
--webpack.config.js
-```javascript
-{
-            test: /\.s?css$/,
-            loaders: ['style', 'css', 'sass'],
-            include: path.join(__dirname, 'src')
-        }
-```
-
 ## 2- Begin
 ```
 $ npm install
