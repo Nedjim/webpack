@@ -21,7 +21,7 @@ var config = {
             },
             {
                 test: /\.s?css$/,
-                loaders: ['style', 'css', 'sass'],
+                loaders: ['style-loader', 'css-loader', 'sass-loader'],
                 include: path.join(__dirname, 'src')
             }
         ]
