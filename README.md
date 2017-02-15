@@ -17,4 +17,12 @@ $ npm start
 ```
 - server: http://localhost:8080/
 
+```
+$ rm -rf .git
+$ git init
+$ git remote -v
+$ git remote add origin ...
+```
+
+
 
