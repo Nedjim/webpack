@@ -1,6 +1,6 @@
-# webpack
+# Configuration Webpack
 
-## 1- Plugins
+## 1- Packages
 ```
 $ npm init
 
@@ -17,7 +17,10 @@ $ npm start
 ```
 - server: http://localhost:8080/
 
+## 3 - Réinitialisation du repo
 ```
+$ git clone git@github.com:Nedjim/webpack.git
+$ cd webpack
 $ rm -rf .git
 $ git init
 $ git remote -v
